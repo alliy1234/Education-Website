@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.set{
+    background: url('images/header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    /* clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%); */
+    /* border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%; */
+}
+.logo{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.change li a{
+    color:black !important;
+    font-weight: 700;
+    font-size: 1.3rem;
+    transition: all .5s linear;
+    margin-right: 5px;
+}
+.change li a:hover{
+color: white !important;
+}
+.set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.spec{
+    text-align: center !important;
+    margin-bottom: 1rem;
+    margin-top: -3rem;
+}
+.spec i{
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: white;
+    background-color: darkred;
+    padding: 10px;
+}
+
+
+/* about section start */
+.about{
+    margin-top: 5rem;
+    position: relative;
+}
+.about h1{
+    padding-left: 10px;
+    
+}
+
+
+
+/* teaher section start */
+.teacher{
+    margin-top: 5rem;
+    position: relative;
+}
+.teacher h1{
+    padding-left: 10px;
+    
+}
+.card{
+    padding: 10px;
+    margin-bottom: 3rem;
+    box-shadow: 5px 5px 10px 1px #000000;
+}
+.teacher .card i{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: darkred;
+}
+.card img{
+    /* width: 400px;
+    height: 200px; */
+    /* opacity: 0; */
+    filter: saturate(0);
+    transition: all .4s linear;
+}
+ .card img:hover{
+filter: saturate(2);
+transform: scale(1.1);
+}
+
+
+
+
+
+/* popular courses start */
+
+
+
+.courses{
+    margin-top: 5rem;
+    position: relative;
+}
+.courses h1{
+    padding-left: 10px;
+    
+}
+.cour{
+    background-color: darkred;
+    padding: 10px;
+    color: white;
+    font-size: 2rem;
+}
+
+
+
+
+/* review start */
+.review{
+    margin-top: 5rem;
+    position: relative;
+}
+.review h1{
+    padding-left: 10px;
+    
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+  }
+/* review end */
+
+
+/* contact start */
+.contact{
+    margin-top: 5rem;
+    position: relative;
+}
+.cntact h1{
+    padding-left: 10px;
+    
+}
+/* contact end */
+/* popular courses end */
+/* .about h1::before{
+    content: "";
+    position: absolute;
+    border-top: 10px solid red;
+    border-left: 5px solid green;
+    width: 3%;
+    height: 10%;
+    padding: 0px;
+    /* margin: 5px; */
+    /* margin-top: -5px;
+    margin-left: -5px; */
+/* } */
+/* .about h1::after{
+    content: "";
+    position: absolute;
+    margin-top: 1rem;
+    border-bottom: 10px solid red;
+    border-right: 5px solid green;
+    width: 3%;
+    height: 10%;
+  
+} */ 
+@media (max-width:700px){
+    .card{
+        margin-top: 1rem;
+    }
+    .abimg{
+        margin-top: 2rem;
+    }
+    
+  
+}
